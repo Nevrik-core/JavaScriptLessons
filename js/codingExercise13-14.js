@@ -46,7 +46,7 @@ function isBudgetEnough(data) {
         console.log('Бюджета достаточно');
         return 'Бюджета достаточно';
     } else {
-        console.log('Бюджета недостаточно')
+        console.log('Бюджета недостаточно');
         return 'Бюджета недостаточно';
     }
 }

@@ -44,7 +44,7 @@
             return 'Цена выше средней';
         }
     }
-    console.log(isAverageLunchPriceTrue(restorantData.menu[0], restorantData.menu[1], restorantData.averageLunchPrice)); debugger
+    console.log(isAverageLunchPriceTrue(restorantData.menu[0], restorantData.menu[1], restorantData.averageLunchPrice));
 
     function transferWaitors(data) {
         const copy = Object.assign({}, data);
